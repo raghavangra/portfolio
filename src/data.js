@@ -74,7 +74,7 @@ export const PROJECTS = [
         title: "Stock Market Analysis, India",
         date: "October 2021 - November 2021",
         responsibilities: [
-            "Utilized Pandas in Python to develop a robust script for efficient manipulation and precise filtering of stock market data.",
+            "Utilized Pandas in Python to develop a robust script for the efficient manipulation and precise filtering of stock market data.",
             "Implemented data analysis techniques, focusing on parameters like Open Interest and Volume.",
             "Achieved a significant 100% reduction in manual labor through process automation, optimizing efficiency.",
             "Saved up valuable time for strategic analysis and accurate decision-making by streamlining the routine tasks.",
