@@ -1,0 +1,51 @@
+.contact-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contact-container::after,
+.contact-container::before {
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    filter: blur(200px);
+}
+
+.contact-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.contact-container::before {
+    background: #9e51b9;
+    bottom: -2rem;
+    right: 0rem;
+}
+
+.contact-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.contact-content {
+    display: flex;
+    gap: 3rem;
+}
+
+@media(max-width: 768px) {
+    .contact-content {
+        flex-direction: column-reverse;
+    }
+
+    .contact-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
